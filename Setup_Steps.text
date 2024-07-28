@@ -18,3 +18,33 @@ Example:
 app.get('/', (req, res) {                                 app.get('/', (req, res) {
     res.send("Whatever you want to print");      to           res.render("file_name without its extension"---Like---"index");
 })                                                        })
+
+
+# Following steps to setup Static file.
+
+1.Creating a folder called public.
+
+2.Creating 3 folders inside public folder, images, stylesheets, javascript.
+
+3.configure the express static in script.js file.
+
+4. understand the path.
+
+
+
+# Following steps to use Express Generator.
+
+1.npm i express-generator -g     (Install Express Generator Globally).
+
+2.To create app anywhere
+    a. open cmd move to Desktop
+    b. create new app:
+    c. express appname --view=ejs
+    
+    now using 2 command.
+    a. cd appname
+    b. npm i
+    c. code . (To moving VS-code directly through cmd using "cd ." command)
+
+
+Then move foreword to MongoDB......... (Go to the MongoDB folder)
