@@ -1,0 +1,20 @@
+ejs setup karne ke liye 
+
+1. ejs install
+npm i ejs
+
+2. configure ejs
+
+app.set("view engine", "ejs");
+
+3. creating a view folder
+
+4. creating  file in view folder.
+
+5. In .js main file replace 'send' to 'render'.
+
+Example:
+
+app.get('/', (req, res) {                                 app.get('/', (req, res) {
+    res.send("Whatever you want to print");      to           res.render("file_name without its extension"---Like---"index");
+})                                                        })
